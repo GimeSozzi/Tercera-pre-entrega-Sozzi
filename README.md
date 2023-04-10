@@ -31,6 +31,20 @@ Después de instalar las dependencias, es necesario inicializar la base de datos
 
 `python manage.py runserver`
 
+Luego, podrás acceder al sistema ingresando en tu navegador a la dirección http://localhost:8000/.
+
+## Admin
+
+El proyecto cuenta con una interface de admin en donde se pueden todos los modelos del proyecto.
+
+Para usar el admin, es necesario crear un superusuario, ejecutando el siguiente comando en la terminal:
+
+`python manage.py createsuperuser`
+
+Luego, se te pedirán los datos del superusuario, como nombre de usuario, correo electrónico y contraseña.
+
+Una vez que hayas creado el superusuario, puedes acceder al panel de administración en la dirección: /admin/
+
 ## Contribuyentes
 
 - Gimena Sozzi
