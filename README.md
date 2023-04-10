@@ -11,7 +11,7 @@ Hasta el momento, se han implementado las siguientes funciones:
 
 ## Dependencias
 
-Para instalar las dependencias de Planoteca, es recomendable utilizar un entorno virtual (Virtualenv) y luego instalarlas utilizando el archivo requirements.txt. Aquí te dejamos los pasos a seguir:
+Para instalar las dependencias de Planoteca, es recomendable utilizar un entorno virtual (Virtualenv) y luego instalarlas utilizando el archivo requirements.txt. Pasos a seguir:
 
 1. Crear un entorno virtual y activarlo.
 
@@ -27,7 +27,7 @@ Después de instalar las dependencias, es necesario inicializar la base de datos
 
 `python manage.py migrate`
 
-Una vez realizados estos pasos, ya puedes iniciar el servidor de desarrollo de Django con el siguiente comando:
+2. Iniciar el servidor de desarrollo de Django con el siguiente comando:
 
 `python manage.py runserver`
 
