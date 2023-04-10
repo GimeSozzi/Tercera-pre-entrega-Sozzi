@@ -1,0 +1,24 @@
+{% extends 'genericos/base.html' %}
+
+{% block title_head %}
+<title>PROYECTOS ENCONTRADOS</title>
+{% endblock title_head %}
+
+{% block h1_header %}
+<h1>Proyectos encontrados</h1>
+{% endblock h1_header %}
+
+{% block contenido %}
+
+<p>Estamos buscando el proyecto: {{titulo}}</p>
+
+{% if titulo %}
+    {% for proyecto in proyectos %}
+    <li>
+        Titulo: {{proyecto.titulo}} - Tipologia: {{proyecto.tipologia}}
+    </li>
+    {% endfor %}
+
+{% endif %}
+
+{% endblock contenido %}
